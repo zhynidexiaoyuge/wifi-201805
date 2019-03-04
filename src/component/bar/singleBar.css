@@ -1,0 +1,44 @@
+.rise{
+    position: absolute;
+    left: 12px;
+    top: 20px;
+    width: 224px;
+    height: 80px;
+    background-color:#adecfa;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.riseTitle{
+    width: 224px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #32cff2;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #2d3640;
+}
+.riseCount{
+    width: 224px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    color: #045466;
+}
+.totalRise{ 
+    left: 258px;
+    top: 20px;
+}
+.totalRise .riseTitle{
+    background-color: #2fd1c6;
+}

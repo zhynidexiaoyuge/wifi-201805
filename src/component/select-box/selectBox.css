@@ -1,0 +1,42 @@
+.select-box-wrap {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-box-wrap > li {
+  height: 20px;
+  line-height: 20px;
+  color: #000;
+  font-size: 14px;
+  margin-right: 45px;
+  cursor: pointer;
+  position: relative;
+}
+
+.select-box-wrap > li::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background-image: url('./image/box.png');
+  background-repeat: no-repeat;
+  left: -25px;
+  top: 2px;
+}
+
+.select-box-wrap > li.selected::before {
+  background-image: url('./image/boxed.png');
+}
+
+.select-box-wrap.single > li::before {
+  top: 1px;
+  background-image: url('./image/dotsed.png');
+}
+
+.select-box-wrap.single > li.active::before {
+  background-image: url('./image/dots.png');
+}
+.select-box-wrap.single > li.active{
+  background:none;
+}

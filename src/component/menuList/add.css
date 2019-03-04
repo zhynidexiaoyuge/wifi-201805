@@ -1,0 +1,126 @@
+.addList{
+  display:flex;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  align-items: center
+}
+.addList .search{
+  width: 14px;
+  height: 14px;
+  background: url('./img/search.png') no-repeat;
+  display: block
+}
+.addList span{
+  margin-left: 12px
+}
+.addList .down{
+  width: 20px;
+  height: 13px;
+  background:url('./img/down.png') no-repeat;
+  position: absolute;
+  right:34px;
+  top:26px;
+  display:block
+}
+.contentList{
+  width: 500px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-top:1px solid #ccc
+}
+.contentList li{
+  
+}
+.increaceList{
+  display:flex;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  align-items: center
+}
+.increaceList .search{
+  width: 14px;
+  height: 14px;
+  background: url('./img/icon.png') no-repeat;
+  display: block
+}
+.increaceList span{
+  margin-left: 12px
+}
+.increaceList .down{
+  width: 20px;
+  height: 13px;
+  background:url('./img/down.png') no-repeat;
+  display:block;
+  margin-left: 343px
+}
+.leftList{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+ 
+}
+.leftList li{
+  width: 498px;
+  height:60px;
+  line-height: 60px;
+  text-indent: 20px
+}
+.leftList li:nth-child(odd){
+  background: #f4fbfe;
+}
+.leftList li:hover{
+ background:#ddf3fc;
+ border-left:2px solid #1eb1ee;
+}
+.leftList .ipg{
+  width: 22px;
+  height: 25px;
+  display: block;
+  margin-left: 440px;
+  margin-top:-46px;
+  background: url('./img/icon1.png') no-repeat
+}
+.leftList li:hover .ipg{
+  background: url('./img/icon2.png') no-repeat
+ }
+ .paginationList{
+   margin-left: 21px;
+  margin-top: 11px;
+   font-size: 14px;
+   color: #6c7987
+ }
+ .paginationList span:hover{
+   color:#43a0f6
+ }
+ .mark{
+  width: 20px;
+  height: 13px;
+  background:url('./img/down.png') no-repeat;
+  transform: rotate(270deg);
+  display: block;
+  position: absolute;
+  right:34px;
+  bottom:3px
+ }
+ .paginationListLine{
+  position: absolute;
+  left:0px;
+  bottom:10px;
+  font-size: 14px;
+  color: #6c7987
+}
+.paginationListLine span:hover{
+  color:#43a0f6
+}
+.markPointer{
+ width: 20px;
+ height: 13px;
+ background:url('./img/down.png') no-repeat;
+ transform: rotate(90deg);
+ display: block;
+ position: absolute;
+ left:22px;
+ bottom:3px
+}

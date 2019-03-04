@@ -1,0 +1,58 @@
+.pagination-container {
+  position: absolute;
+}
+
+.pagination-input {
+  position: absolute;
+  top: 0;
+  left: 512px;
+  width: 218px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  color: #00fffc;
+  font-size: 14px;
+}
+
+.pagination-input input {
+  width: 108px;
+  height: 32px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #00fffc;
+  background-color: transparent;
+  margin: 0 18px;
+  text-align: center;
+  color: #00fffc;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.pagination-total {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 32px;
+  width: 80px;
+  line-height: 32px;
+  text-align: center;
+  color: #00fffc;
+  font-size: 14px;
+}
+
+.pagination-count {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -230px;
+  height: 32px;
+  width: 230px;
+  line-height: 32px;
+  text-align: center;
+  color: #00fffc;
+  font-size: 14px;
+}
+
+.pagination-count.active {
+  display: block;
+}

@@ -1,0 +1,127 @@
+
+/*  */
+.nav{
+  position: relative;
+  z-index: 1;
+}
+.wifiLogo{
+  width: 430px;
+  height: 80px;
+  float: left;
+  background:url('/static/image/logo.png') no-repeat;
+}
+.navList{
+  width: 800px;
+  height: 80px;
+  float: left;
+}
+.navBg{
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  /* left: -140px; */
+  background: url('/static/image/nav/active.png') center center no-repeat;
+  background-size: contain;
+  transition: all 400ms cubic-bezier(.16,1.23,.87,1.18);
+}
+.navList li {
+  float: left;
+  width: 140px;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.navList li.active{
+  background: url('/static/image/nav/active.png') center center no-repeat;
+  background-size: contain;
+}
+/* .navList li:hover{
+  background: url('/static/image/nav/active.png') center center no-repeat;
+  background-size: contain;
+} */
+.navList a{ 
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
+  /* background-color: #0f0; */
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+}
+.navList a span{
+  display: inline-block;
+  margin-right: 6px;
+  width: 18px;
+  height: 18px;
+}
+.sectionCore{
+  float: right;
+  width: 340px;
+  height: 80px;
+  line-height: 80px;
+}
+.sectionCore a{
+  display: inline-block;
+}
+.sectionCore a.back{
+  position: absolute;
+  right: 40px;
+}
+.sectionCore a.ring{
+  position: absolute;
+  right: 100px;
+}
+.sectionCore img{
+  vertical-align: middle;
+}
+.sectionCore span.message{
+  position: absolute;
+  right: 140px;
+  top: 26px;
+  /* margin-left: 30px; */
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 0px 24px;
+  background-color: #368dd3;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.personalCenter{
+  position: absolute;
+  right: 290px;
+  top: 0px;
+}
+
+.userCenter{
+  position: absolute;
+  right: 140px;
+  top: 70px;
+  width: 130px;
+  height: 140px;
+  background-color: #fff;
+  z-index: 100;
+  border: 1px solid #d2d2d2;
+  font-size: 14px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: none;
+}
+.userCenter li{
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.userCenter li:hover{
+  background-color: #bbe7fa;
+}
+.userCenter li.active{
+  background-color: #bbe7fa;
+}
+

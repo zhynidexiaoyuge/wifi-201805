@@ -1,0 +1,127 @@
+/*新增M*/
+.list-wrap{
+  /* margin-top: 30px; */
+}
+#news{
+  position: absolute;
+  top:0;
+  width: 500px
+}
+.list-wrap li{
+  flex:1;
+  height: 39px;
+  line-height: 39px;
+  font-size: 16px;
+  color: #2d3640;
+  padding: 2px;
+  text-indent: 22px;
+}
+.list-wrap li:hover{
+  background:rgba(30,177,238,0.2);
+  border-left:5px solid #1eb1ee
+}
+/* Bk任务列表 */
+.Bklist-wrap li{
+  height: 100px;
+  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #bfbfbf;
+  padding-top: 14px;
+  cursor: pointer;
+ user-select: none;
+}
+.Bklist-wrap li:nth-child(odd){
+  background-color: #f4fbfe;
+}
+.Bklist-wrap li:hover{
+  padding-left: 16px;
+  border-left: 4px solid #1eb1ee;
+  background-color: #ddf3fc;
+}
+.Bklist-wrap h3{
+  font-size: 16px;
+}
+.Bklist-wrap .Minner{
+  margin: 8px 0px;
+}
+ .Bklist-wrap p{
+  font-size: 14px;
+  color: #6c7987;
+}
+.wholeBtn{
+  width: 120px;
+  height: 50px;
+  background-color: #d2e5f5;
+  position: absolute;
+  right: 20px;bottom: 9px;
+  text-align: center;
+  border-radius: 40px;
+}
+.wholeBtn div{
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -55px;
+  margin-top: -20px;
+  border-radius: 40px;
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(top, #70c5f5, #267dd8);
+}
+/*统计分析页*/
+.dataSwitch li:hover{
+  border-bottom: 4px solid #1993fb;
+  color: #4ba3fc;
+  cursor: pointer;
+  font-weight: bold
+}
+/*碰撞分析-----左侧碰撞列表*/
+.taskList{
+  width: 400px;
+  text-align: center
+ 
+}
+.titleList{
+  width: 400px;
+  height:59px;
+  font-size: 16px;
+  color: '#565d65';
+}
+.taskList li{
+  width:400px;
+  height:59px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:#6c7987;
+  font-size:14
+}
+.taskList li span{
+  flex:1
+}
+.taskList li:hover{
+  border-left:2px solid #1eb1ee;
+  background: #ddf3fc;
+  
+  z-index: 3;
+}
+.taskList li:nth-child(odd){
+  background: #f4fbfe;
+  z-index: 2;
+}
+.taskList .clock{
+  width: 18px;
+  height:18px;
+  background: url('./img/clock.png') no-repeat;
+  display: block;
+  margin-left: 119px;
+  margin-top: -16px
+}
+.taskList li:hover .clock{
+  background: url('./img/clockActive.png') no-repeat;
+}

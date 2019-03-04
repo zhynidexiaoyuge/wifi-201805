@@ -1,0 +1,43 @@
+.table{
+    width: 100%;
+    border:0; border-collapse:collapse;
+    text-align: center;
+}
+.table th{
+    font-size: 16px;
+    color: #000;
+    background-color: #f4fbfe;
+}
+.table th.active{
+    cursor: pointer;
+}
+.table td{
+    font-size: 14px;
+    color: #6c7987;
+}
+.table td a{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+.table .checkbox{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+}
+.table tr{
+    height: 60px;
+    background-color: #fff;
+}
+
+.table tr:nth-child(Even){
+    background-color: #f4fbfe;
+}
+.table tr:hover{
+    background-color: #ddf3fc;
+}
+.table tr.active{
+    background-color: #ddf3fc;
+}

@@ -1,0 +1,27 @@
+
+.tableMap{
+  margin-right: 25px
+}
+          
+.tableMap dt{
+  line-height: 52px;
+}
+.tableMap dd{
+  line-height: 62px;
+}
+.tableMap dd span{
+  color: #1f7ccc;
+  font-weight: bold
+}
+.icons li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px
+}
+.icons li:nth-child(2){
+  margin-top: 20px
+}
+.icons li span{
+  margin-left: 15px
+}
