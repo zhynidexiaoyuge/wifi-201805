@@ -1,0 +1,105 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"综合查询",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"BK管理",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"数据统计",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"登录",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"综合查询",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"BK管理",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"数据统计",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"登录",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"综合查询",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    },
+    {
+      "userName":"h30829732",
+      "loginName":"王某某",
+      "organization":"192.168.1.1",
+      "role":"2016-04-21 21:03",
+      "tel":"BK管理",
+      "registDate":"查询",
+      "recentlyLogged":"12:32:23:12",
+      "selection":true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "userName":"区域管理员",
+      "loginName":"无",
+      "organization":"管理角色,可查询下属信息",
+      "role":"3",
+      "selection":true
+    },
+    {
+      "userName":"民警",
+      "loginName":"无",
+      "organization":"普通角色,拥有普通查询功能权限",
+      "role":"3",
+      "selection":true
+    }
+  ]
+}
